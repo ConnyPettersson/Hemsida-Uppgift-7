@@ -1,6 +1,12 @@
 body {
-    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
 }
+
 
 .container {
     position: relative;
@@ -20,17 +26,18 @@ body {
 }
 
 h1 {
-    padding: 10px;
-    margin-left: 4%;
+    padding: 8px;
+    margin-left: 10px;
 }
 
 .connyImage {
     position: absolute;
     background-image: url(images/Conny3.png);
+    background-position: center;
     height: 400px;
     width: 300px;
     background-size: cover;
-    margin-left: 60%;
+    margin-left: 600px;
 
 }
 
@@ -38,23 +45,23 @@ h1 {
 
 h2 {
     color: rgb(80, 11, 240);
-    margin-left: 40%;
+    margin-left: 50px;
 }
 
 #text1 {
 
     color: rgb(80, 11, 240);
     position: absolute;
-    margin-left: 7%;
-    margin-top: 7%;
+    margin-left: 85px;
+    margin-top: 55px;
 }
 
 #text2 {
 
     color: rgb(80, 11, 240);
     position: absolute;
-    margin-left: 13%;
-    margin-top: 10%;
+    margin-left: 140px;
+    margin-top: 150px;
 }
 
 .listContainer {
